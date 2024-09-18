@@ -34,9 +34,7 @@ npm install --save-dev jest
 
 #### ES6 Modules
 
-**Source**: <https://stackoverflow.com/questions/35756479/does-jest-support-es6-import-export>
-
-*If* we wish to use ES6 modules, then do the following:
+*If* we wish to use ES6 modules, and do not want to use [Babel](https://babeljs.io/), then do the following:
 
 > Steps `0`, `1`, `2` are same as previous.
 
@@ -65,6 +63,8 @@ npm install --save-dev jest
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
 },
 ```
+
+**Source**: <https://stackoverflow.com/questions/35756479/does-jest-support-es6-import-export>
 
 ## Background
 
